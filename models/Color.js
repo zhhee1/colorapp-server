@@ -1,17 +1,17 @@
 var mongoose = require('mongoose');
 
 var ColorSchema = new mongoose.Schema({
-    surname: {
+    concept: {
         type: String,
         required: true
     },
-    name:{
+    prerequisites:{
         type: String,
-        required: true
+        required: false
     },
-    favcolor:{
+    leads:{
         type: String,
-        required: true
+        required: false
     }
 });
 
