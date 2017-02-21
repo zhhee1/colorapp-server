@@ -6,11 +6,11 @@ var ColorSchema = new mongoose.Schema({
         required: true
     },
     prerequisites:{
-        type: String,
+        type: [String],
         required: false
     },
     leads:{
-        type: String,
+        type: [String],
         required: false
     }
 });
